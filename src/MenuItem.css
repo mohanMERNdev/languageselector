@@ -1,0 +1,25 @@
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .full-screen-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2%;
+    background: rgba(0, 0, 0, 0.7); /* Dark shadow */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
